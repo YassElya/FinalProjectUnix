@@ -4,8 +4,7 @@ Through the discussion of me and my teammates about what GNU/Linux scenario shou
 develop for the final project, we decided ended up choosing to create a video streaming server with
 Linux. Using some samples and examples we got form different open sources, a video streaming
 server is a web server with RTMP capability built into it that is dedicated to delivering live or ondemand video content to the user’s computer, smart tv or mobile device
-(https://corp.kaltura.com/blog/video-streamingserver/#:~:text=In%20short%2C%20 a%20vi deo %2
-0streaming,smart%20tv%2C%20or%20mobile%20device).
+(https://corp.kaltura.com/blog/video-streamingserver/#:~:text=In%20short%2C%20a%20video%20streaming,smart%20tv%2C%20or%20mobile%20device). 
  One of the references we used to describe and define well what web server we intend
 to build.
 1. Project description/goals: The main goal is that our team wants to build that will work by
@@ -25,20 +24,10 @@ simply use a VM facilitate demonstration of our project. In case we find out lat
 easily done on a VM or depending on the installation in our pc, we cannot support a having extra
 space on our VM, we expect to clarify our issues and problems to the teacher so that we can discuss
 together and come up with a better solution. Like I said, it will be our first time building a server, we
-will have a lot of issues, complication but we aim on working to getter to build a perfect, working,
+will have a lot of issues, complication but we aim on working to get to build a perfect, working,
 and better server.
 3. Requirements:
-The requirements needed of building any server project are materials like having a computer that is in better
-conditions(working and has free enough space and memory) , a good architecture(what sort of computer uses
--i386, PowerPC, etc. it is necessary to have the rights parts of your computer like having chips on which
-Debian can run. We aim on using Debian in case my colleagues later find a new distribution to explore.),
-having enough memory helps to because we might later need to install some extensions to help our server to
-Goals:
-1. Write your project proposal
-2. Review git commands
-3. Simulate conflicts & merges
-2
-run. With memory, we also need storage(the hard-drive is the heart of the server because even if you
+Our team of three people is going to be divided so everyone in the group has something to do. I know it's gonna be difficult to include everything you asked for, but we will do our best in including everything. I tink that the creation of multiple user accounts, service management, system security, and the automated tasks using a script language are really relevant for our project because those are what a server needs to be secure and reliable. we are going to do our best in our project because we don't have that much left, but we'll see.The requirements needed of building any server project are materials like having a computer that is in better conditions(working and has free enough space and memory) , a good architecture(what sort of computer uses -i386, PowerPC, etc. it is necessary to have the rights parts of your computer like having chips on which Debian can run. We aim on using Debian in case my colleagues later find a new distribution to explore.), having enough memory helps to because we might later need to install some extensions to help our server to run. With memory, we also need storage(the hard-drive is the heart of the server because even if you
 lost everything with a working hard-drive, you could retrieve your information.) Cooling is another
 feature that will help our server to not overheat. Network, monitor and keyboard, power, etc… , are
 other features that will contribute to running our server. So, with these elements working perfectly, we
