@@ -5,7 +5,7 @@ develop for the final project, we decided ended up choosing to create a video st
 Linux. Using some samples and examples we got form different open sources, a video streaming
 server is a web server with RTMP capability built into it that is dedicated to delivering live or ondemand video content to the user’s computer, smart tv or mobile device.
 
-(https://corp.kaltura.com/blog/video-streamingserver/#:~:text=In%20short%2C%20a%20video%20streaming,smart%20tv%2C%20or%20mobile%20device). 
+(https://corp.kaltura.com/blog/video-streaming-server/). 
 
  One of the references we used to describe and define well what web server we intend
 to build.
