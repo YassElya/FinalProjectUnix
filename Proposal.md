@@ -3,8 +3,10 @@ Part I: Final project proposal
 Through the discussion of me and my teammates about what GNU/Linux scenario should we
 develop for the final project, we decided ended up choosing to create a video streaming server with
 Linux. Using some samples and examples we got form different open sources, a video streaming
-server is a web server with RTMP capability built into it that is dedicated to delivering live or ondemand video content to the user’s computer, smart tv or mobile device
+server is a web server with RTMP capability built into it that is dedicated to delivering live or ondemand video content to the user’s computer, smart tv or mobile device.
+
 (https://corp.kaltura.com/blog/video-streamingserver/#:~:text=In%20short%2C%20a%20video%20streaming,smart%20tv%2C%20or%20mobile%20device). 
+
  One of the references we used to describe and define well what web server we intend
 to build.
 1. Project description/goals: The main goal is that our team wants to build that will work by
