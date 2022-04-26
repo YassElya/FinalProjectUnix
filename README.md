@@ -1,5 +1,3 @@
-# FinalProjectUnix
-
 READ ME:
 
 PROJECT DESCRIPTION:
