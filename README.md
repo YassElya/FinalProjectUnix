@@ -1,7 +1,7 @@
 # Table of contents:
 - [Project-description :newspaper:](#PROJECT-DESCRIPTION)
-- [Timeline :Clock130:](#Timeline)
-- [project goals & deliverables:](#1.Project-goals-and-deliverables)
+- [Timeline](#Timeline)
+- [project goals & deliverables](#1.Project-goals-and-deliverables)
 - [Deliveries: part1](#deliveries-part1)
 - [Deliveries: part2](#deliveries-part2)
 - [Deliveries: part3](#deliveries-part3)
