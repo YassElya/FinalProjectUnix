@@ -1,7 +1,7 @@
 # Table of contents:
 - [Project-description :newspaper:](#PROJECT-DESCRIPTION)
-- [Timeline](#Timeline)
-- [project goals & deliverables](#1.Project-goals-and-deliverables)
+- [Timeline:](#Timeline)
+- [1.Project goals and deliverables](#1.Project-goals-and-deliverables)
 - [Deliveries: part1](#deliveries-part1)
 - [Deliveries: part2](#deliveries-part2)
 - [Deliveries: part3](#deliveries-part3)
@@ -11,7 +11,7 @@
 This project was created based on the discussion of me and my teammates about what GNU/Linux scenario that we want to develop which consists of creating a VPS streaming video server. Using some samples and examples we got form different open sources, a video streaming server. We intend to create more like a web server with RTMP capability built into it that is dedicated to delivering live or on demand video content to the users with computer, smart tv or mobile device.
 
 
-## Timeline : 
+## Timeline: 
 
 The timeline for our project is intended to be completed in less than 3 weeks. So, we will have three different deliverable parts and each one will involve in improving the previous deliverables:
 
