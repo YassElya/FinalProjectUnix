@@ -1,5 +1,5 @@
 # Table of contents:
-[Project description:newspaper:](# PROJECT DESCRIPTION)
+- [Project description:newspaper:](#PROJECT DESCRIPTION)
 # PROJECT DESCRIPTION:
 	
 This project was created based on the discussion of me and my teammates about what GNU/Linux scenario that we want to develop which consists of creating a VPS streaming video server. Using some samples and examples we got form different open sources, a video streaming server. We intend to create more like a web server with RTMP capability built into it that is dedicated to delivering live or on demand video content to the users with computer, smart tv or mobile device.
