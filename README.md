@@ -1,5 +1,11 @@
 # Table of contents:
 - [Project-description :newspaper:](#PROJECT-DESCRIPTION)
+- [Timeline :Clock:](##Timeline)
+- [project-goals-&-deliverables](##Project-goals-and-deliverables)
+- [Deliverie-1](###deliveries-part1)
+- [Deliverie-2](###deliveries-part2)
+- [Deliverie-3](###deliveries-part3)
+- [Major-technical-issues-solutions :bulb:](##Major-technical-issues-solutions-compared)
 # PROJECT DESCRIPTION:
 	
 This project was created based on the discussion of me and my teammates about what GNU/Linux scenario that we want to develop which consists of creating a VPS streaming video server. Using some samples and examples we got form different open sources, a video streaming server. We intend to create more like a web server with RTMP capability built into it that is dedicated to delivering live or on demand video content to the users with computer, smart tv or mobile device.
@@ -9,7 +15,7 @@ This project was created based on the discussion of me and my teammates about wh
 
 The timeline for our project is intended to be completed in less than 3 weeks. So, we will have three different deliverable parts and each one will involve in improving the previous deliverables:
 
-## 1.Project description/goals and deliverables:
+## 1.Project goals and deliverables:
 ### Deliveries: part1
 
 The first part involves of brainstorming what we will build in our project that is to buy a VPS and then create a server that will work by combining /breaking down different data packets so that both video and audio will be able to work simultaneously without any compilation errors. It is hard because some are managed-VPS which only allow users to have access only on the control panels. In that case, we need to find a free non-managed VPS that will allow us to add anything like games, video streaming server and other features. One of the servers we discussed before was Scalahosting and we had a lot of issues, but now we decided to use OVHcloud based on the teacher’s suggestion and add a game to try it out. Even though we don't have a lot knowledge and experience creating servers, we intend to learn and do researches about how to build a server that will be able to store, display videos. 
