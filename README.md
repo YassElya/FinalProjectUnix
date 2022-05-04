@@ -2,9 +2,9 @@
 - [Project-description :newspaper:](#PROJECT-DESCRIPTION)
 - [Timeline:](##Timeline)
 - [project goals & deliverables:](##1.Project-goals-and-deliverables)
-- [Deliveries: part1](###deliveries:-part1)
-- [Deliveries: part2](###deliveries:-part2)
-- [Deliveries: part3](###deliveries:-part3)
+- [Deliveries: part1](###deliveries-part1)
+- [Deliveries: part2](###deliveries-part2)
+- [Deliveries: part3](###deliveries-part3)
 - [Major technical issues solutions :bulb:](##Major-technical-issues-solutions-compared)
 # PROJECT DESCRIPTION:
 	
