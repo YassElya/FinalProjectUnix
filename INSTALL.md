@@ -6,7 +6,7 @@
 - [Create a new user](#Create-a-new-user)
 - [Security](#Security)
 - [Installing video streaming & Hosting](#Installing-video-streaming--Hosting)
-- [Q&A](#Q&A)
+- [Q&A](#Q--A)
 ## VPS Installation
 - create an account on OVHcloud.
 - create a new virtual private server (VPS) by navigating on bare metal cloud.
