@@ -6,7 +6,7 @@
 - [Create a new user](#Create-a-new-user)
 - [Security](#Security)
 - [Installing video streaming & Hosting](#Installing-video-streaming--Hosting)
-- [Q&A](#Q-&-A)
+- [Questions & Answers](#Questions--Answers)
 ## VPS Installation
 - create an account on OVHcloud.
 - create a new virtual private server (VPS) by navigating on bare metal cloud.
@@ -73,7 +73,7 @@ penetrate the system.
 - `systemctl status nginx` checkig the status of nginx 
 - In your browser, type in your IP address and you should see the nginx welcome message.
 
-## Q&A
+## Questions & Answers
 ### if you cannot connect to VPS?
 - just check the internet connection first.
 - Make sure you have the correct IP address.
