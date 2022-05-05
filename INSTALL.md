@@ -13,6 +13,56 @@
   - we named ours  Virtual streaming server.
 - IP address
   - After the verification is finished, you'll obtain an IP address that you can SSH to your vps. You can connect using this "ssh root@IP_ADDRESS".
+## SSH Key
+-   If you want to use SSH key and you do not have it, Follow this instruction.
+    - Linux Environment:
+      - Create a directory using `$ mkdir ~/.ssh` if it doest not exist already.
+      - `$ ssh-keygen -b 4096` running this command will create your rsa key. The `-b 4096` indicates the size. Then enter to confirm the default location.
+      - Use `cat ~/.ssh/id_rsa.pub` to check your public key.
+      - Copy its content to digital ocean ssh authentication.
+      - Use this key when you connect to the remote server.
+    - Windows
+      - To generate your ssh key on windows platform you have to use PuTTY. Check [this][PuTTY] for installation guide
+## Connecting to the remote server
+- Connect to the server using the provided ip address
+  - On windows, 
+    - Open command prompt
+    - type `$ ssh root@IP_ADDRESS`
+    - enter your key or password
+  - On linux
+    - Open terminal
+    - type `$ ssh root@IP_ADDRESS`
+    - enter your key or password
+## Upgrade & Update
+- Before we create a new user we have to update and upgrade our system
+- run these commands:
+  - `sudo apt-get update`
+  - `sudo apt-get upgrade`
+    - press y to confirm the upgrade
+## Create a new user
+ - After successfully connecting to the server, you create a new account in order to not run every command in the root.
+    - `useradd username` will add new user
+    - `usermod -aG sudo username` add the user to the sudo group
+    - `groups username` to verify if the user is successfully added to the sudo group.
+    - `su username` to switch to the other user.
+    - try to logout from the server and connect to it again using the new user.
+## Security
+- Since we are hosting a video streaming server, we want to make sure that our VPS will be protected from all threats so that people will not hack into our system and disable access to the root.
+  -First, "sudo passwd -d root" this will disable the password for root. 
+  - We added the apt-get install fail2ban
+  - cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.conf.backup, this will print unknown IP addresses to 
+penetrate the system. 
+## Installing video streaming & Hosting
+-Open the terminal:
+ [installin the game "7Days to Die"](https://linuxgsm.com/servers/sdtdserver/)
+ - run the command  adduser sdtdserver
+ - su- sdtdserver
+ - run this command to allow you to have access to different video streaming games: wget -O linuxgsm.sh https://linuxgsm.sh && chmod +x linuxgsm.sh && bash linuxgsm.sh sdtdserver 
+ 
+ [Also, we added Nginx to by](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04)
+- `sudo apt install nginx` to install nginx
+- `systemctl status nginx` checkig the status of nginx 
+- In your browser, type in your IP address and you should see the nginx welcome message.
 
 ## Q&A
 ### if you cannot connect to VPS?
