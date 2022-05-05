@@ -1,5 +1,6 @@
 # Installation
-[VPS Installation](VPS-Installation)
+[VPS Installation](#VPS-Installation)
+[SSH Key](#SSH Key)
 ## VPS Installation
 - create an account on OVHcloud.
 - create a new virtual private server (VPS) by navigating on bare metal cloud.
