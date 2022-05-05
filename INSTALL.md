@@ -1,4 +1,5 @@
 # Installation
+[VPS Installation](VPS-Installation)
 ## VPS Installation
 - create an account on OVHcloud.
 - create a new virtual private server (VPS) by navigating on bare metal cloud.
@@ -59,7 +60,7 @@ penetrate the system.
  - su- sdtdserver
  - run this command in your terminal to allow you to have access to different video streaming games: wget -O linuxgsm.sh hhttps://linuxgsm.sh && chmod +x linuxgsm.sh && bash linuxgsm.sh sdtdserver
  
- [Also, we added Nginx to by](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04)
+ [Also, we added Nginx:](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04)
 - `sudo apt install nginx` to install nginx
 - `systemctl status nginx` checkig the status of nginx 
 - In your browser, type in your IP address and you should see the nginx welcome message.
