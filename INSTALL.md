@@ -5,7 +5,7 @@
 - [Upgrade & Update](#Upgrade--Update)
 - [Create a new user](#Create-a-new-user)
 - [Security](#Security)
-- [Installing video streaming & Hosting](#Installing-video-streaming-Hosting)
+- [Installing video streaming & Hosting](#Installing-video-streaming--Hosting)
 - [Q&A](#Q&A)
 ## VPS Installation
 - create an account on OVHcloud.
@@ -24,29 +24,30 @@
 ## SSH Key
 -   If you want to use SSH key and you do not have it, Follow this instruction.
     - Linux Environment:
-      - Create a directory using `$ mkdir ~/.ssh` if it doest not exist already.
+     - Create a directory using `$ mkdir ~/.ssh` if it doest not exist already.
       - `$ ssh-keygen -b 4096` running this command will create your rsa key. The `-b 4096` indicates the size. Then enter to confirm the default location.
       - Use `cat ~/.ssh/id_rsa.pub` to check your public key.
       - Copy its content to digital ocean ssh authentication.
       - Use this key when you connect to the remote server.
     - Windows
-      - To generate your ssh key on windows platform you have to use PuTTY. Check [this][PuTTY] for installation guide
+     - To generate your ssh key on windows platform you have to use PuTTY. Check [this][PuTTY] for installation guide
 ## Connecting to the remote server
 - Connect to the server using the provided ip address
-  - On windows, 
-    - Open command prompt
-    - type `$ ssh root@IP_ADDRESS`
-    - enter your key or password
+  - On windows 
+    -Open command prompt
+    -type `$ ssh root@IP_ADDRESS`
+    -enter your key or password
   - On linux
-    - Open terminal
-    - type `$ ssh root@IP_ADDRESS`
-    - enter your key or password
+    -Open terminal
+    -type `$ ssh root@IP_ADDRESS`
+    -enter your key or password
 ## Upgrade & Update
 - Before we create a new user we have to update and upgrade our system
 - run these commands:
   - `sudo apt-get update`
   - `sudo apt-get upgrade`
-    - press y to confirm the upgrade
+    -press y to confirm the upgrade
+
 ## Create a new user
  - After successfully connecting to the server, you create a new account in order to not run every command in the root.
     - `useradd username` will add new user
