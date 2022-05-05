@@ -1,11 +1,11 @@
 # Installation
-[VPS Installation](#VPS-Installation)
-[SSH Key](#SSH-Key)
-[Connecting to the remote server](#Connecting-to-the-remote-server)
-[Upgrade & Update](#Upgrade--Update)
-[]()
-[]()
-[]()
+- [VPS Installation](#VPS-Installation)
+- [SSH Key](#SSH-Key)
+- [Connecting to the remote server](#Connecting-to-the-remote-server)
+- [Upgrade & Update](#Upgrade--Update)
+- []()
+- []()
+- []()
 ## VPS Installation
 - create an account on OVHcloud.
 - create a new virtual private server (VPS) by navigating on bare metal cloud.
