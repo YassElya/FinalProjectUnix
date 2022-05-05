@@ -57,7 +57,7 @@ penetrate the system.
  [installin the game "7Days to Die"](https://linuxgsm.com/servers/sdtdserver/)
  - run the command  adduser sdtdserver
  - su- sdtdserver
- - run this command to allow you to have access to different video streaming games: [wget -O linuxgsm.sh https://linuxgsm.sh && chmod +x linuxgsm.sh && bash linuxgsm.sh sdtdserver]
+ - run this command to allow you to have access to different video streaming games: wget -O linuxgsm.sh hhttps://linuxgsm.sh && chmod +x linuxgsm.sh && bash linuxgsm.sh sdtdserver
  
  [Also, we added Nginx to by](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04)
 - `sudo apt install nginx` to install nginx
