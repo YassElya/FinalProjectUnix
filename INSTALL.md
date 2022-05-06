@@ -95,6 +95,3 @@ You need to make sure that you allowed ssh connection on this port. You can fix 
 - sudo usermod -aG sudo "username" adds the user you created to the sudo group.
 - groups username to verify if the user is successfully added to the sudo group.
 - su username switches to other users.
-
-## Go back to the readme file:
-[ReadMe file](#README.md)
