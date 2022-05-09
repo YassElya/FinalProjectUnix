@@ -8,7 +8,7 @@
 - [Installing video streaming & Hosting](#Installing-video-streaming--Hosting)
 - [Questions & Answers](#Questions--Answers)
 ## VPS Installation
-- create an account on OVHcloud.
+- create an account on DigitalOcean.
 - create a new virtual private server (VPS) by navigating on bare metal cloud.
 - Select Ubuntu 20.04 or any other versions you want.
 - In our project, we pick a plan with 2GB CPU with 40 GB transfer.
@@ -61,9 +61,9 @@
   - We added the apt-get install fail2ban
   - cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.conf.backup, this will print unknown IP addresses to 
 penetrate the system. 
-## Installing video streaming & Hosting
+## Installing the game & Hosting
 -Open the terminal:
- [installin the game "7Days to Die"](https://linuxgsm.com/servers/sdtdserver/)
+ [installing the game "7Days to Die"](https://linuxgsm.com/servers/sdtdserver/)
  - run the command  adduser sdtdserver
  - su- sdtdserver
  - run this command in your terminal to allow you to have access to different video streaming games: wget -O linuxgsm.sh hhttps://linuxgsm.sh && chmod +x linuxgsm.sh && bash linuxgsm.sh sdtdserver
