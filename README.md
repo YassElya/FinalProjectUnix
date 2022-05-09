@@ -8,12 +8,12 @@
 - [Major technical issues solutions :bulb:](#Major-technical-issues-solutions-compared)
 # PROJECT DESCRIPTION:
 	
-This project was created based on the discussion of me and my teammates about what GNU/Linux scenario that we want to develop which consists of creating a VPS streaming video server. Using some samples and examples we got form different open sources, a video streaming server. We intend to create more like a web server with RTMP capability built into it that is dedicated to delivering live or on demand video content to the users with computer, smart tv or mobile device.
+This project was created based on the discussion of me and my teammates about what GNU/Linux scenario that we want to develop which consists of hosting a website created in the VPS . Using some samples and examples we got form different open sources. We intend to create more like a web server with RTMP capability built into it that is dedicated to delivering live or on demand video content to the users with computer, smart tv or mobile device.
 
 
 ## Timeline: 
 
-The timeline for our project is intended to be completed in less than 3 weeks. So, we will have three different deliverable parts and each one will involve in improving the previous deliverables:
+The timeline for our project is intended to be completed in less than 3 weeks. So, we will have three different deliverable parts and each one will involve in improving the previous deliverables.
 
 ## Project goals and deliverables:
 ### Deliveries: part1
@@ -26,7 +26,9 @@ we intend to build the VPS in the OVHcloud. We added a game to test if our serve
 ### Deliveries: part3
 Requirements: Our work is divided into three parts where one created the VPS, GitHub and added the items on the server like a game, video streaming and etc. We will try to add all the things like creating multiple user accounts, service management, system security, and the automated tasks using a script language and others that will be relevant in making our server more needs secure and reliable. By our last delivery, we hope to build the streaming server that shows the pre-recorder video or if we can, we aim at creating a game server that contains game that you can play. 
 
-
+### Deliveries: part4
+Yassine est un gros con.
+Fiacre est un beau-gosse.
 
 ## Major technical issues solutions compared:
  
