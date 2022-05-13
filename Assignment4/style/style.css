@@ -1,0 +1,156 @@
+nav {
+  text-align: center;
+  background-color: blueviolet;
+  height: 5cm;
+}
+#container {
+  background-color: green;
+}
+#currentPage {
+  background-color: darkred;
+}
+
+a:link {
+  color: white;
+  background-color: red;
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  justify-content: center;
+  font: 14px Arial, sans-serif;
+}
+
+a:visited {
+  color: white;
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  font: 14px Arial, sans-serif;
+  border-radius: 5px;
+}
+a:active {
+  background-color: darkred;
+}
+a:hover {
+  text-decoration: none;
+}
+nav a {
+  border: 1px solid black;
+  border-radius: 15%;
+}
+figure {
+  text-align: center;
+  background-color: lightblue;
+}
+footer {
+  background-color: coral;
+}
+body {
+  background-color: darkgoldenrod;
+}
+ul {
+  border-style: dotted;
+  border: 5px double blue;
+  font-size: larger;
+  padding: 20px;
+  line-height: 30px;
+}
+ol {
+  border-style: dashed;
+  border: 5px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  list-style-type: upper-roman;
+}
+
+ul li:hover{
+background-image: url('Assignment3\Images\Picture7.jpeg');
+}
+ol li:hover{
+  background-color: red;
+}
+table{
+table-layout: fixed;  
+background-color: white;  
+border-collapse: collapse;
+border:5px solid rgb(200,200,200);
+letter-spacing:1px;
+font-family:sans-serif;
+font-size:medium;
+text-align: center;
+}
+caption{
+  padding: 5px;
+  text-align: center;
+  caption-side: bottom;
+  color: blue;
+}
+th,td{
+  border:1px solid rgb(190,190,190);
+  padding: 5px 10px;
+}
+thead{
+  font-size: 25px;
+  background-color: crimson;
+}
+tfoot{
+  background-color: darkorange;
+  text-align: center;
+}
+tbody tr:hover{
+  background-color: chartreuse;
+}
+.center{
+margin-left: auto;
+margin-right: auto;
+}
+h1,h2,h3,h4{
+text-align: center;
+font-size: 50pt;
+font-style: italic;
+text-shadow: 2px 2px blue;
+}
+
+h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h4{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#myHeader{
+  text-align: center;
+  font-size: 50pt;
+  font-style: italic;
+  text-shadow: 2px 2px blue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#p1{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+line-height: 400%;
+}
+#p1::first-line{
+  text-transform: uppercase;
+}
+#p2{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+line-height: 400%;
+}
+#p2::first-letter{
+font-size: 200%;
+text-transform: uppercase;
+}
+#p3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 400%;
+}
+#p3::first-letter{
+  font-size: 200%;
+  text-transform: uppercase;
+}
+#tContainer::selection{
+  background-color: yellow;
+}

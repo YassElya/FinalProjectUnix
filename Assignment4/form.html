@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+    <link rel="shortcut icon" type="image\png" href="Images\favicon.ico">
+	<link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="Form.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>  
+<body>
+    <div id="Container">
+    <h1>Form</h1>
+    <header>
+        <nav>
+            <a href="contact.html">Contact</a>
+			<a href="home.html">Home</a> 
+			<a href="gallery.html">Gallery</a>
+			<a href="lists.html">Lists</a>
+			<a href="https://www.espn.com/soccer/scoreboard" target="_blank"> favorite Website</a>
+			<a href="tables.html">Tables</a>
+            <a href="form.html">Form</a>
+            <a href="topic.html">Topic</a>
+        </nav>
+    </header>
+    <form action="action_page.php">
+    <fieldset>
+        <legend>Player's info</legend>
+        <label for="PlayerId">Player id:</label><br>
+        <input type="text" id="PlayerId" name="PlayerId" placeholder="Ex: 2059045"><br>
+        <i class="bi bi-person"></i>
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Enter your first name"><br>
+        <i class="bi bi-person"></i>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Enter your last name"><br>
+        <i class="bi bi-calendar"></i>
+        <label for="birthday">Birthday:</label><br>
+        <input type="date" id="birthday" name="birthday" placeholder="month/day/year"><br>
+        <label for="Team">Choose the teams you want to play for:</label><br>
+        <!--Instead of course I used select element for teams -->
+        <select name="teams" id="teams-select" multiple>
+            <option value="">--Please choose some teams--</option>
+            <option value="CF mtl">Club de foot Montréal</option>
+            <option value="Atletico FC">Atletico FC</option>
+            <option value="Toronto FC">Toronto FC</option>
+            <option value="Vancouver">Vancouver Whitecaps FC</option>
+            <option value="Barca">FC Barcelone</option>
+            <option value="RM">Real Madrid FC</option>
+            <option value="Arsenal">Arsenal</option>
+            <option value="Chelsea">FC Chelsea</option>
+        </select><br>
+    </fieldset>
+    <fieldset>
+        <legend>Contact</legend>
+        <i class="bi bi-envelope"></i>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Ex: example@gmail.com"><br>
+        <i class="bi bi-telephone-fill"></i>
+        <label for="PlayerPhoneNum">Player's phone number:</label><br>
+        <input type="text" id="PlayerPhoneNum" name="PlayerPhoneNum" placeholder="your phone number"><br>
+        <i class="bi bi-telephone"></i>
+        <label for="Emergency">Emergency phone number:</label><br>
+        <input type="text" id="Emergency" name="Emergency" placeholder="Ex: your dad's phone num"><br>
+    </fieldset>
+    <fieldset>
+        <legend>Address</legend>
+        <label for="street">Street:</label><br>
+        <input type="text" id="street" name="street" placeholder="Street name"><br>
+        <label for="city">City:</label><br>
+        <input type="text" id="city" name="city" placeholder="City name"><br>
+        <label for="province">Province:</label><br>
+        <input type="text" id="province" name="province" placeholder="province name"><br>
+        <label for="pcode">Postal Code:</label><br>
+        <input type="text" id="Pcode" name="postCode" placeholder="A5F W5F"><br>
+    </fieldset>
+    <fieldset>
+        <legend>Comments</legend>
+        <label for="Review">What do you think about our website:</label><br>
+        <textarea id="WebReview" name="WebReview" rows="10" cols="175" placeholder="Write something in here"></textarea>
+    </fieldset>
+    <br>
+    <br>
+    <input type="reset" id="ResButton" name="resetbutton">
+    <input type="submit" id="SubButton" name="submitbutton" value="Submit">
+    </form>
+    </div>
+</body>  
+</html>
