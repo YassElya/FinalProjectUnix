@@ -7,7 +7,7 @@
 - [Deliveries: part3](#deliveries-part3)
 - [Major technical issues solutions :bulb:](#Major-technical-issues-solutions-compared)
 # PROJECT DESCRIPTION:
-- IP address:[138.197.138.231](138.197.138.231)	
+- Our server's IP address is:138.197.138.231
 
 This project was created based on the discussion of me and my teammates about what GNU/Linux scenario that we want to develop which consists of hosting a website created in the VPS . Using some samples and examples we got form different open sources. We intend to create more like a web server with RTMP capability built into it that is dedicated to delivering live or on demand video content to the users with computer, smart tv or mobile device.
 
