@@ -9,7 +9,7 @@
 - [Questions & Answers](#Questions--Answers)
 ## VPS Installation
 - create an account on DigitalOcean.
-- create a new virtual private server (VPS) by navigating on bare metal cloud.
+- create a new virtual private server (VPS) by navigating on Droplets.
 - Select Ubuntu 20.04 or any other versions you want.
 - In our project, we pick a plan with 2GB CPU with 40 GB transfer.
 - Choose a data center region
