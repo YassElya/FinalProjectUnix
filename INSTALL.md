@@ -1,6 +1,7 @@
 # Installation
 - [VPS Installation](#VPS-Installation)
 - [SSH Key](#SSH-Key)
+- [Bash script](#Bash-script)
 - [Connecting to the remote server](#Connecting-to-the-remote-server)
 - [Upgrade & Update](#Upgrade--Update)
 - [Create a new user](#Create-a-new-user)
@@ -31,6 +32,45 @@
       - Use this key when you connect to the remote server.
     - Windows
      - To generate your ssh key on windows platform you have to use PuTTY. Check [this][PuTTY] for installation guide
+## Bash script
+ ```bash
+  #!/bin/bash
+  set -e
+
+  MACHINE=`uname -n`
+  CUR_USER=`whoami`
+  CUR_DATE=$(date)
+  echo "LOG: $MACHINE, $CUR_USER is running the bash script. [$CUR_DATE]"
+  echo "Enter host name:"
+  read HOST_NAME
+  while [ $HOST_NAME != "Yassine" ] && [$HOST_NAME != "Fiacre"] && [ $HOST_NAME != "Ivan" ]
+    do
+      echo "$HOST_NAME does not exist on the database"
+      echo "Enter host name:"
+      read HOST_NAME
+    done
+    
+  echo "Welcome, $HOST_NAME"
+  echo "Enter directory name: "
+  read DIR_NAME
+  if [-d "$DIR_NAME" ]
+  then
+    echo "LOG: $DIR_NAME found!"
+    NUM_FILES=`ls -lR ${DIR_NAME}/ | egrep -c '^-'
+    sleep 2
+    echo "LOG: Deleting old files..."
+    ssh ${HOST_NAME}@IP_ADDRESS "rm -rfv /var/www/IP_ADDRESS/"
+    echo "LOG: Importing new build to the server..."
+    scp -r ${DIR_NAME}/* ${HOST_NAME}@IP_ADDRESS:/var/www/IP_ADDRESS
+    echo "LOG: $DIR_NAME is successfully deployed to the server"
+    echo "TOTAL: $NUM_FILES has been transfer to the server"
+  else
+    echo "$DIR_NAME folder doest not exist!"
+    echo "LOG: Deployed failed [$CUR_DATE]"
+    echo "WARNING: Please fix the issue and run the script again"
+  fi
+    echo "Finish executing script"
+  ```
 ## Connecting to the remote server
 - Connect to the server using the provided ip address
   - On windows 
